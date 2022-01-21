@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    font-family: "Raleway";
+    overflow-x: hidden;
+    background: url("images/honeycomb1.jpg") center center no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #6B6B81;
+    }
+}
+
+.navbar {
+    width: 100%;
+    background: gold;
+    border: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 25px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navbar-collapse ul li a {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+#blank {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 30px;
+}
+
+#main {
+    background: gold;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #000;
+}
+
+.grandImg {
+    background-size: cover;
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 0 auto;
+}
+
+#dnVaru {
+    background-size: cover;
+    padding: 110px 0px 0px 0px;/*marginea meniului*/
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 0 auto;
+}
+
+
+#dnVaru img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dnVaruRight {
+    padding: 30px;    
+    text-align: center;
+    text-align: justify;
+    color: #fff;
+}
+
+@media screen and (max-height: 1000px) {
+    #dnVaru img {
+        font-size: 12px;
+    }
+}
+
+#unelte {
+      padding-left: 30px;
+      padding-top: 90px;
+      padding-right: 30px;
+     padding-bottom: 50px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-align: justify;
+    background: gold;
+}
+
+#tipuriMiere {
+      padding-left: 30px;
+      padding-top: 90px;
+      padding-right: 30px;
+     padding-bottom: 50px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-align: justify;
+    background: #473F4E;
+}
+
+#tipuriMiere .thumbnail {
+    border-radius: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.tipMiere {
+    color: #000;
+    padding: 30px;
+}
+
+.margins {
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50;
+    float: none;
+    margin: 0 auto;
+}
+
+#beneficiileMierii {
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.fadeInDown {
+    padding: 30px;
+  -webkit-animation: fadeInUp 300ms linear 300ms both;
+  -moz-animation: fadeInUp 300ms linear 300ms both;
+  -o-animation: fadeInUp 300ms linear 300ms both;
+  -ms-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+
+.modal {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#contact {
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+	background: gold;
+} 
+
+.subfooter {
+    font-size: 10px;
+}
+
+.btn {
+    border-radius: 0;
+    margin: auto 0;
+}
+
+
+/*Gallery */
+.fotos .thumbnail {
+    position: relative;
+    border-radius: 0;
+}
+
+.fotos .thumbnail:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.fotos .caption {
+    bottom: 0;
+    position: absolute;
+    border-radius: 0;
+}
+
+.fotos .btn {
+    opacity: 0.75;
+}
+
+#photos {
+    background: #473F4E;
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+#googleMap {
+  width: 100%;
+  height: 400px;
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
+  } 
+
+.feature-wrap {
+    text-align: center;
+}
+
+/* end gallery */
