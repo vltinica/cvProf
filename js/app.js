@@ -1,12 +1,3 @@
-//------------------------------ buttom Home  ------------------//
-
-// const toHome = document.getElementById("home");
-// toHome.addEventListener("click", goHome);
-
-// function goHome() {
-// return (document.location.href = "../index.html");
-// }
-
 // -----------------change Language-------------------------------//
 
 const select = document.getElementById("button_lng");
